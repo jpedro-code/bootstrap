@@ -1,0 +1,103 @@
+
+body{
+    font: 20px Arial,  sans-serif;
+}
+.html{
+    min-height: 100%;
+    overflow: hidden;
+}
+.logo-image{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+}
+.linha{
+    position: relative;
+    top: 50%;
+    width: 24px;
+    margin: 0 auto;
+    border-right: 2px solid hsl(0, 1%, 21%);
+    font-size: 100%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%)
+    ;
+}
+.efeito-digitacao{
+    animation: maquinaDeEscrever 4s steps(40) 1s normal both,
+    cursorDeTexto 500ms steps(40) infinite normal;
+    animation-iteration-count: infinite;
+}
+
+@keyframes maquinaDeEscrever {
+    from{
+        width: 0;
+    }to {
+        width: 18em;
+    }
+    
+}
+@keyframes cursorDeTexto {
+    from{
+        border-right-color:hsl(0, 2%, 89%) ;
+    }to{
+        border-right-color: transparent;
+    }
+    
+}
+.margin{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#quem-sou{
+    background-color:rgb(190, 190, 190);
+
+}
+.img_hack{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+.h4-quem-sou{
+    margin-top: 30px;
+
+}
+#story{
+    background-color:rgb(190, 190, 190) ;
+}
+.img-story{
+    width: 400px;
+    height: 400px;
+    align-items: center;
+}
+.way-img{
+    width: 400px;
+    height: 400px;
+}
+.git_logo{
+    width: 200px;
+}
+.linkedin_logo{
+    width: 200px;
+    height: 200px;
+
+}
+.instagram_logo{
+    width:200px;
+    
+}
+.linkedin_link{
+    color: black;
+    align-items: center;
+}
+
+.padrao_link{
+    color: black;
+
+}
+.bg-footer{
+    background-color: black;
+    color: aliceblue;
+}
